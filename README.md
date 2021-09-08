@@ -18,7 +18,7 @@ If the robot is in state 1, or 2, the system should wait until the robot reaches
 * [wall_follower_service_m.py](https://github.com/piquet8/final_assignment/blob/main/scripts/wall_follower_service_m.p): it provides a service for simulating the wall following behaviour
 * [random_position.py](https://github.com/piquet8/final_assignment/blob/main/scripts/random_position.py): it provides a service to choose a new target position randomly
 ## Messages
-###Published messages
+### Published messages
 * `geometry_msgs/Twist`: it published the messages to the /cmd_vel topic. It is used to modify the speed of the robot; in particular, inside the function change_state of the main_node, it has been used to stop the robot by setting its speed to zero.
 * `move_base_msgs/MoveBaseActionGoal`: it published the messages to the /move_bae/goal topic. Inside the main_node, in the publish_ag function it is used to set the goal that the robot has to reach
 * `actionlib_msgs`: it published the messages to the /move_base/cancel topic. It is used to remove a target that the robot has reached. It allows to avoid the overlying of robot behaviours
