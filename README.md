@@ -55,3 +55,8 @@ roslaunch final_assignment move_base.launch
 ```
 roslaunch final_assignment assignment.launch
 ```
+# Report of the assignment
+## Robot behaviors
+Four behaviours have been implemented: move randomly, target position, walls following and stop. In the first two states, the robot can reach six possible target positions: (-4,-3);(-4,2);(-4,7);(5,-7);(5,-3);(5,1)
+By choosing the **move randomly** behaviour the robot will receive a random target position among the six possible ones and will reach it without user intervention. Choosing the behaviour **target position** the user will have to choose manually which of the six destinations to reach. In both cases it will not be possible to change the behaviour until the robot has reached the target position. The third behaviour is **walls following**, as the name suggests the robot moves within the environment following the walls it finds nearby. Finally, there is the last behaviour **stop**, it stops the robot.  
+
