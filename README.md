@@ -13,7 +13,12 @@ and reach it
 If the robot is in state 1, or 2, the system should wait until the robot reaches the position in order to switch to the state 3 and 4 or (if implemented) to change the planning algorithm
 # Project structure
 ## Node
-* [user_interface.py](https://github.com/piquet8/final_assignment/blob/main/scripts/user_interface.py): this is the main node of the architecture, infact it implements the structure of the entire architecture.  
-* [go_to_point_service_m.py](https://github.com/piquet8/final_assignment/blob/main/scripts/go_to_point_service_m.py): it provides a service for simulating the go-to-point behaviour
+*   
+* 
 * [wall_follower_service_m.py](https://github.com/piquet8/final_assignment/blob/main/scripts/wall_follower_service_m.p): it provides a service for simulating the wall following behaviour
 * [random_position.py](https://github.com/piquet8/final_assignment/blob/main/scripts/random_position.py): it provides a service to choose a new target position randomly
+## Rqt-graph
+Here we can see a dynamic graph showing what's going on in the system:
+![Rqt-graph](https://github.com/piquet8/final_assignment/blob/main/Rqt_graph2.png)
+
+
