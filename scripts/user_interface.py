@@ -1,5 +1,5 @@
 #! /usr/bin/env python
-
+# This script is a simple user interface that changes the status of the robot according to the user's choice
 import rospy
 import time
 # import ros service
