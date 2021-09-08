@@ -1,5 +1,8 @@
 #! /usr/bin/env python
 
+# This node is the main one, in fact it handles the management of the robot within the simulation 
+# using the other nodes and other methods implemented in it 
+
 import rospy
 import time
 import math
