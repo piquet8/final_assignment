@@ -1,5 +1,6 @@
 #! /usr/bin/env python
-
+# This script is the same as the one in the robot description package and implements the wall_follower behaviour 
+# whereby the robot will move around the environment following the walls
 import rospy
 from sensor_msgs.msg import LaserScan
 from geometry_msgs.msg import Twist
