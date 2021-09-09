@@ -41,7 +41,7 @@ Here we can see a dynamic graph showing what's going on in the system:
 # How to launch
 1. Firstly, open the terminal, go to your workspace and run:
 ```
-https://github.com/piquet8/final_assignment.git
+git clone https://github.com/piquet8/final_assignment.git
 ```
 2. To launch the simulation 3D environment run the command:
 ```
