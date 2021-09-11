@@ -51,6 +51,8 @@ roslaunch final_assignment simulation_gmapping.launch
 ```
 roslaunch final_assignment move_base.launch
 ```
+**Remember** that python files must be made executable before they are run, to do this, go to the directory of the file and use: `chmod +x nome_file.py`
+
 4. Finally to start the navigation with the robot, open a new shell tab and run the command:
 ```
 roslaunch final_assignment assignment.launch
