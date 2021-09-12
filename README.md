@@ -39,7 +39,7 @@ If the robot is in state 1, or 2, the system should wait until the robot reaches
 Here we can see a dynamic graph showing what's going on in the system:
 ![Rqt-graph](https://github.com/piquet8/final_assignment/blob/main/Rqt_graph2.png)
 # How to launch
-1. Firstly, open the terminal, go to your workspace and run:
+1. Firstly, open the terminal, go to your workspace and in the src folder run:
 ```
 git clone https://github.com/piquet8/final_assignment.git
 ```
