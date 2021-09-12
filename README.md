@@ -12,6 +12,7 @@ and reach it
 
 If the robot is in state 1, or 2, the system should wait until the robot reaches the position in order to switch to the state 3 and 4 or (if implemented) to change the planning algorithm
 # Project structure
+In this project, 4 nodes (one was already implemented) and a file service were developed. The **python programming language** was used to implement the nodes.
 ## Node
 * [main_node.py](https://github.com/piquet8/final_assignment/blob/main/scripts/main_node.py): it is the main node, in fact it manages all the other nodes and communication with the move base to allow the robot to navigate within the simulation environment
 * [user_interface.py](https://github.com/piquet8/final_assignment/blob/main/scripts/user_interface.py): it provides a user interface through which the user can select the type of behaviour to be performed by the robot. It implements the function set_new_state
